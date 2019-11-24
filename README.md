@@ -2,7 +2,7 @@
 Poject for experimenting search algorithms
 
 ## Game Background
-The Game has 4 letters on the board, which are A,B,C and D. The goal of this game is to find the path to reach the goal state of the chess board. 
+The Game has 4 letters on the board, which are A,B,C and D. The goal of this game is to find the path to reach the goal state of the chess board. The chess board has an agent, which swaps position with the letter next to them to achieve goal state.
 
 
 
@@ -18,3 +18,6 @@ A star serach is implemented with a heuristic, in this project the heursistic us
 
 ### IDS
 Iterative Deepening search is implemented with stack, however it has depth limit which limits the maximum depth the search can reach.
+
+## Grid Class Description
+The grid class is representing a state of the chess board, it takes positions of the 4 letters and agents, when it is constructed. 
